@@ -1,9 +1,304 @@
-   <!DOCTYPE html>
-   <html>
-     <head>
-       <title>Glory Filamo</title>
-     </head>
-     <body>
-       <h1>Glory Filamo</h1>
-     </body>
-   </html>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glory Filamo | AI Marketing Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Source Sans 3", Arial, sans-serif;
+      background: #FAFAF8;
+      color: #1A1A1A;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0F5257;
+      color: white;
+      padding: 22px 8%;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .logo {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      max-width: 1100px;
+      margin: auto;
+      padding: 100px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      color: #0F5257;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+      font-size: 1.2rem;
+    }
+
+    .button {
+      display: inline-block;
+      background: #A35D00;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 75px 8%;
+    }
+
+    section h2 {
+      color: #0F5257;
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    .case-study {
+      background: white;
+      border: 1px solid #e5e5e0;
+      border-radius: 10px;
+      padding: 35px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    }
+
+    .case-study h3 {
+      color: #0F5257;
+      font-size: 1.6rem;
+      margin-bottom: 25px;
+    }
+
+    .case-study h4 {
+      color: #A35D00;
+      margin-top: 25px;
+      margin-bottom: 8px;
+    }
+
+    .case-study ul {
+      margin: 12px 0 0 20px;
+    }
+
+    .case-study li {
+      margin-bottom: 7px;
+    }
+
+    .about-box {
+      max-width: 800px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #0F5257;
+      color: white;
+      text-align: center;
+      padding: 30px 8%;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .case-study {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Glory Filamo</div>
+
+      <div>
+        <a href="#home">Home</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <h1>AI Marketing Assistant Portfolio</h1>
+
+      <p>
+        I create AI-assisted content workflows and educational content
+        that combine practical teaching experience with structured AI use.
+      </p>
+
+      <a class="button" href="#work">View My Work</a>
+    </section>
+
+
+    <section id="work">
+      <h2>Work / Case Studies</h2>
+
+      <div class="case-study">
+
+        <h3>
+          AI-Assisted A2 English YouTube Lesson Script Workflow
+        </h3>
+
+        <h4>1. Problem</h4>
+
+        <p>
+          I create faceless English-learning videos for A2 learners on my
+          Hello English YouTube channel. My earlier AI-assisted process
+          depended heavily on individual prompts and manual review.
+          This made it harder to keep lesson structure, vocabulary,
+          grammar, and A2-level language consistent from one script to
+          another.
+        </p>
+
+
+        <h4>2. What I Did</h4>
+
+        <p>
+          I built a structured Claude Project workflow for creating
+          A2 English lesson scripts. The workflow uses four stages:
+        </p>
+
+        <ul>
+          <li><strong>Gather:</strong> collect the lesson context, target vocabulary, expressions, examples, and situations.</li>
+
+          <li><strong>Synthesize:</strong> organize the lesson objective, vocabulary, expressions, examples, and speaking practice.</li>
+
+          <li><strong>Draft:</strong> create the complete faceless YouTube lesson script.</li>
+
+          <li><strong>Review:</strong> check A2 level, vocabulary use, grammar, naturalness, lesson objective, speaking practice, flow, and suitability for a faceless video.</li>
+        </ul>
+
+        <p style="margin-top: 20px;">
+          I tested the workflow with multiple real lesson topics and
+          reviewed the output myself. The testing helped identify
+          issues such as target vocabulary that was not reused and
+          expressions that could be too idiomatic for A2 learners.
+        </p>
+
+
+        <h4>3. What Came of It</h4>
+
+        <p>
+          The workflow created a more structured and repeatable
+          process for producing AI-assisted A2 English lesson scripts.
+          The testing also showed where human review remained important,
+          particularly for learner level, natural language, vocabulary
+          reuse, and teaching quality.
+        </p>
+
+        <p style="margin-top: 20px;">
+          Rather than relying on AI output without review, I use AI
+          to support the scripting process while applying my teaching
+          experience to evaluate and refine the final content.
+        </p>
+
+      </div>
+    </section>
+
+
+    <section id="about">
+      <h2>About</h2>
+
+      <div class="about-box">
+        <p>
+          I am an educator with over 10 years of teaching experience
+          across the Philippines, Thailand, and online international
+          learning environments.
+        </p>
+
+        <p style="margin-top: 15px;">
+          I am now developing my skills in AI marketing and AI-assisted
+          content creation through FlyRank's AI Fluency program,
+          with a focus on practical workflows, content development,
+          research, and structured use of AI tools.
+        </p>
+
+        <p style="margin-top: 15px;">
+          My current focus is creating AI-assisted scripts for
+          faceless English-learning YouTube videos for A2 learners,
+          combining AI capabilities with human teaching judgment.
+        </p>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+      <h2>Let's Connect</h2>
+
+      <p>
+        I'm interested in opportunities involving AI-assisted content,
+        research, and marketing workflows.
+      </p>
+
+      <p style="margin-top: 20px;">
+        LinkedIn and professional contact details can be added here.
+      </p>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>© 2026 Glory Filamo. AI Marketing Portfolio.</p>
+  </footer>
+
+</body>
+</html>
