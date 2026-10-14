@@ -320,6 +320,37 @@
           Book a 15-Minute Introductory Chat
         </a>
       </p>
+      
+      <form name="contact" method="POST" data-netlify="true"
+            style="max-width: 600px; margin: 30px auto 0; text-align: left;">
+
+        <input type="hidden" name="form-name" value="contact">
+
+        <p style="margin-bottom: 18px;">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required
+                 style="display: block; width: 100%; padding: 12px; margin-top: 6px; border: 1px solid #ccc; border-radius: 6px;">
+        </p>
+
+        <p style="margin-bottom: 18px;">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" required
+                 style="display: block; width: 100%; padding: 12px; margin-top: 6px; border: 1px solid #ccc; border-radius: 6px;">
+        </p>
+
+        <p style="margin-bottom: 20px;">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required
+                    style="display: block; width: 100%; padding: 12px; margin-top: 6px; border: 1px solid #ccc; border-radius: 6px; font: inherit;"></textarea>
+        </p>
+
+        <button type="submit"
+                style="background: #0F5257; color: white; padding: 12px 22px; border: 0; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer;">
+          Send message
+        </button>
+
+      </form>
+
     </section>
 
   </main>
